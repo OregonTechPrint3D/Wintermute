@@ -17,8 +17,8 @@ difference(){
 		// Linear bearing holes
 		difference(){
 			union(){
-				translate([25,0,0])cylinder(h=14,r=10,$fn=40);
-				translate([-25,0,0])cylinder(h=14,r=10,$fn=40);
+				translate([25,0,0])cylinder(h=16,r=10,$fn=40);
+				translate([-25,0,0])cylinder(h=16,r=10,$fn=40);
 			}
 
 			union(){
