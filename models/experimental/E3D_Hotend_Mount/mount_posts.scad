@@ -14,8 +14,8 @@ mount_height=32;
     union() {
 
 		for (a = [0:120:359]) rotate([0, 0, a]) {
-    		  translate([0, mount_radius,0])cylinder(r1=4,r2=2.5, h=mount_height/2, center=true, $fn=16);
-    		  translate([0, mount_radius,16])cylinder(r1=2.5,r2=3.5, h=mount_height/2, center=true, $fn=16);
+    		  translate([0, mount_radius,0])cylinder(r1=4,r2=4, h=mount_height/2, center=true, $fn=16);
+    		  translate([0, mount_radius,16])cylinder(r1=4,r2=4, h=mount_height/2, center=true, $fn=16);
 		}
 		
     }
