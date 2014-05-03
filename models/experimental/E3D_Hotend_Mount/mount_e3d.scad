@@ -1,7 +1,7 @@
 include <configuration.scad>;
 
 separation = 44;  // Distance between ball joint mounting faces.
-offset = 22;  // Same as DELTA_EFFECTOR_OFFSET in Marlin.
+offset = 33;  // Same as DELTA_EFFECTOR_OFFSET in Marlin.
 mount_radius = 18.5;  // Hotend mounting screws, standard would be 25mm.
 jhead_od_radius = 8;  // Hole for the hotend (J-Head diameter is 16mm).
 jhead_id_radius = 6;
@@ -9,6 +9,7 @@ height = 7;
 jhead_height=5;
 mount_height=31;
 
+import("~/Print3D/Wintermute/models/experimental/E3D_Hotend_Mount/mount_cap_e3d.stl");
 
 module mount() {
   difference() {
